@@ -1,21 +1,16 @@
-title: terminal velocity
-speaker: Chris Waldon
-sponsored by red hat
+# Terminal Velocity
+### Speaker: Chris Waldon, IBM SRE
+### Sponsored by Red Hat
 
-IBM SRE
+## philosphy
+what makes a good tool good? long list of items
+feedback is the one he likes the most, the core of agility
 
-philosphy
----------------
-  what makes a good tool good? long list of items
-  feedback is the one he likes the most, the core of agility
+## tools
+### getting around
+you end up doing cd tab, tab, tab
 
-tools
----------------
-getting around, you end up doing cd tab, tab, tab
-================
-
-Z - jump around
----------------
+#### Z - jump around
 * {ba,z}sh: github.com/rupa/z
 * fish:github.com/jethrokuan/z
 * 100% shell script
@@ -30,8 +25,7 @@ Z - jump around
 
  new shiny tools instead of find, grep and locate.
 
- fzf -fuzzy find
----------------
+#### fzf -fuzzy find
  * github.com/junegunn/fzf
  * golang
  * fuzzy, not regex
@@ -41,21 +35,21 @@ Z - jump around
     * grep to search within files
     * decision to make a decision like what branch to checkout
 * example
-for example, dmesg dumps everything; dmesg | fzf. Then type error and it finds
-all the error in different formats. It also find "allocatE ResouRce fOR EISA"
+for example, dmesg dumps everything; dmesg | fzf. Then type
+error and it finds all the error in different formats.
+It also find "allocatE ResouRce fOR EISA"
 
 fzf emits to stdout
 
-gc script he wrote for git checkout using fzf to figure out what branch to
-checkout
+gc script he wrote for git checkout using fzf to figure out
+what branch to checkout
 
 fzf can be used to search history
 
-fd - find
----------
+#### fd - find
 * github.com/sharkdp/fd
 * rust
-*use instead of find
+* use instead of find
 * heuristics
   * skip hidden files by default
   * skip ignored files by default
@@ -64,8 +58,7 @@ fd - find
   * it can read .gitignore and other source control types and ignores those as
     well
 
-ripgrep = grep, but better
----------------------------
+#### ripgrep = grep, but better
 * github.com/BurntSushi/ripgrep
 * rust
 * use instead of grep
@@ -75,24 +68,21 @@ ripgrep = grep, but better
   * skip ignored files by default
 * you can output json if you want as well
 
-exmaple: rg uinput vs grep -r uinput (SLOW)
+example: rg uinput vs grep -r uinput (SLOW)
 
 rged const (rged is a script that uses rg and fzf)
 
 
-gron - make json greppable
-----------------------------
+#### gron - make json greppable
 * github.com/tomnomnom/gron
 
 gron converts the json into equivalent javascript
 
 combines really well with yaml2json and json2yaml
 
-Looking at things
-===================
+### Looking at things
 
-exa = ls for humans
---------------------
+#### exa = ls for humans
 * github.com/ogham/exa
 * rust
 * alias to ls
@@ -101,27 +91,22 @@ color coded permissions, understands git, also replaces tree
 
 -h instead of human readable gives you headers
 
-bat - cat with wings
------------------------
+#### bat - cat with wings
 * github.com/sharkdp/bat
 * rust
 
-hexyl = read the matrix
-------------------------
+#### hexyl = read the matrix
 * github.com/sharkdp/hexyl
 * similar to xxd but color coded
 
-fixing ux
-==========
-detox
-------
+### fixing ux
+#### detox
 * detox.sourceforge.net
 * c
 * inline form of it too (inline-detox) uses stdin and renames on the fly
 
 
-fish
-------
+#### fish
 * github.com/fish-shel/fish-shell
 * c++
 * fish_update_completions
@@ -131,22 +116,21 @@ fish
 can parse your  man pages and create completions for them
 can tell you if no executable exists
 
-entr - run commands when files change
----------------------------------------
+#### entr - run commands when files change
 * eradman.com/entrproject
 
-multitasking
-=============
-tmux
--------
+### Multitasking
+#### tmux
+* https://github.com/tmux/tmux
 
+### Editing
 
-editing
-=========
+#### kakoune
 * github.com/mawww/kakoune
-* c++
+* C++
 * vi-like, but constant feedback
 
+### Contact
 christopher.waldon.dev@gmail.com
 keybase.io/whereswaldon
 waldon.blog/contact
