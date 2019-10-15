@@ -1,6 +1,7 @@
-Industrial. Io
-
-Booth 69 for cotton paper
+# How Friends Hack Cars, and Stuff
+#### Lori Wachter, Advance Auto Parts
+#### Devin Shackle, Dragos
+#### Garrett Bladow, Dragos
 
 Data science at advance auto parts
 
