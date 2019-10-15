@@ -20,4 +20,4 @@ project.
 * Look for "good first issue" & "help wanted" issues.
 * file an issue and work on it
 * sometimes you can skip straight to a PR
-* Fix golint failures #68026
+* Fix golint failures [#68026](https://github.com/kubernetes/kubernetes/issues/68026)
