@@ -11,8 +11,8 @@ feedback is the one he likes the most, the core of agility
 you end up doing cd tab, tab, tab
 
 #### Z - jump around
-* {ba,z}sh: [https://github.com/rupa/z]
-* fish: [https://github.com/jethrokuan/z]
+* {ba,z}sh: https://github.com/rupa/z
+* fish: https://github.com/jethrokuan/z
 * 100% shell script
 * frequency
 * use instead of cd
@@ -25,7 +25,7 @@ you end up doing cd tab, tab, tab
 new shiny tools instead of find, grep and locate.
 
 #### fzf - fuzzy find
-* [https://github.com/junegunn/fzf]
+* https://github.com/junegunn/fzf
 * Golang
 * fuzzy, not regex
 * smart case
@@ -46,7 +46,7 @@ figure out what branch to checkout
 * `fzf` can be used to search history
 
 #### fd - find
-* [https://github.com/sharkdp/fd]
+* https://github.com/sharkdp/fd
 * Rust
 * use instead of find
 * heuristics
@@ -58,7 +58,7 @@ figure out what branch to checkout
     and ignores those as well
 
 #### ripgrep = grep, but better
-* [https://github.com/BurntSushi/ripgrep]
+* https://github.com/BurntSushi/ripgrep
 * Rust
 * use instead of grep
 * heuristics:
@@ -73,25 +73,25 @@ figure out what branch to checkout
 
 
 #### gron - make json greppable
-* [https://github.com/tomnomnom/gron]
+* https://github.com/tomnomnom/gron
 * `gron` converts the json into equivalent javascript
 * combines really well with `yaml2json` and `json2yaml`
 
 ### Looking at things
 
 #### exa - ls for humans
-* [https://github.com/ogham/exa]
+* https://github.com/ogham/exa
 * Rust
 * `alias to ls`
 * color coded permissions, understands git, also replaces tree
 * `-h` instead of human readable gives you headers
 
 #### bat - cat with wings
-* [https://github.com/sharkdp/bat]
+* https://github.com/sharkdp/bat
 * rust
 
 #### hexyl = read the matrix
-* [https://github.com/sharkdp/hexyl]
+* https://github.com/sharkdp/hexyl
 * similar to xxd but color coded
 
 ### fixing ux
@@ -102,7 +102,7 @@ figure out what branch to checkout
 
 
 #### fish
-* [https://github.com/fish-shel/fish-shell]
+* https://github.com/fish-shel/fish-shell
 * C++
 * fish_update_completions
 * funced and funcsave
@@ -111,17 +111,17 @@ figure out what branch to checkout
 * can tell you if no executable exists
 
 #### entr - run commands when files change
-* [http://eradman.com/entrproject/]
+* http://eradman.com/entrproject/
 
 ### Multitasking
 
 #### tmux
-* [https://github.com/tmux/tmux]
+* https://github.com/tmux/tmux
 
 ### Editing
 
 #### kakoune
-* [https://github.com/mawww/kakoune]
+* https://github.com/mawww/kakoune
 * C++
 * vi-like, but constant feedback
 
@@ -132,6 +132,6 @@ keybase.io/whereswaldon
 
 waldon.blog/contact
 
-[https://github.com/whereswaldon]
+https://github.com/whereswaldon
 
-[https://git.sr.ht/~whereswaldon/presentations]
+https://git.sr.ht/~whereswaldon/presentations
