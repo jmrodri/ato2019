@@ -1,25 +1,23 @@
 # Contributing to Kubernetes
 ## A quick guide to get started
+#### Jonas Rosland, VMware
+#### Guinevere Saenger, GitHub
 
-
-guinevere and jonas rosaland
-
+On your own you focus on functionality and code.
+Folks say code is king, but not always true. Often, it's
 open source interactions
 
-On your own you focus on functionality and code. Folks say code is king, but not
-always true.
+Many places you can contribute:
+* docs
+* tests
+* integrations
+* releases
+* security are all opportunities for contributing.
 
-docs, tests, integrations, releases, security are all opportunities for
-contributing.
-
-A kubernetes pull request, Guinevere does a live demo of opening a pull request
-against k8s
+Guinevere shows how to submit a pull request to Kubernetes
+project.
 
 * Look for "good first issue" & "help wanted" issues.
-
 * file an issue and work on it
-
 * sometimes you can skip straight to a PR
-
-
-Fix golint failures #68026
+* Fix golint failures #68026
